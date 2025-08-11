@@ -1,4 +1,4 @@
-baseURL = 'https://geekifan.github.io/zero-academic-page-starter/'
+baseURL = 'https://dailyl.github.io/'
 title = 'Zero'
 
 # multi-language support
@@ -10,9 +10,7 @@ enableGitInfo = true
 # disable taxonomy, term and RSS (which removes categories, tags and index.xml)
 disableKinds = ["taxonomy", "term", "RSS"]
 
-[module]
-  [[module.imports]]
-    path = 'github.com/geekifan/zero-academic-page'
+theme = 'zero-academic-page'
 
 [languages]
   [languages.en]
@@ -21,7 +19,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
     title = 'Zero'
 
     [languages.en.params]
-      author = "Lorem ipsum"
+      author = "Dianzhao Li"
       description = "Ph.D Student in [Lorem ipsum College](https://example.com). Focusing on Computer Vision and Deep Learning."
       motto = "Most things in the world are not that important. But truth and love matter."
     
@@ -99,24 +97,20 @@ disableKinds = ["taxonomy", "term", "RSS"]
   
   [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/DailyL"
     icon = "fab fa-github"
   [[params.social]]
     name = "google-scholar"
-    url = "https://scholar.google.com/"
+    url = "https://scholar.google.com/citations?user=i65JnxwAAAAJ&hl"
     icon = "fab fa-google-scholar"
   [[params.social]]
     name = "email"
-    url = "mailto:example@example.com"
+    url = "mailto:dianzhao.li@tu-dresden.de"
     icon = "fas fa-envelope"
   [[params.social]]
     name = "linkedin"
     url = "https://linkedin.com/"
     icon = "fab fa-linkedin"
-  [[params.social]]
-    name = "zhihu"
-    url = "https://zhihu.com/"
-    icon = "fab fa-zhihu"
 
 [build]
   writeStats = false
