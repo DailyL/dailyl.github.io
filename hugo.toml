@@ -28,29 +28,25 @@ theme = 'zero-academic-page'
       url = '#about-me'
       weight = 1
     [[languages.en.menu.main]]
-      name = 'News'
-      url = '#news'
-      weight = 2
-    [[languages.en.menu.main]]
       name = 'Publications'
       url = '#publications'
       weight = 3
-    [[languages.en.menu.main]]
-      name = 'Honors and Awards'
-      url = '#honors-and-awards'
-      weight = 4
     [[languages.en.menu.main]]
       name = 'Educations'
       url = '#educations'
       weight = 5
     [[languages.en.menu.main]]
-      name = 'Invited Talks'
-      url = '#invited-talks'
+      name = 'Referee'
+      url = '#referee'
       weight = 6
     [[languages.en.menu.main]]
       name = 'Internships'
       url = '#internships'
       weight = 7
+    [[languages.en.menu.main]]
+      name = 'Teaching'
+      url = '#teaching'
+      weight = 8
       
   [languages.zh]
     languageName = '中文'
