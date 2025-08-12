@@ -63,7 +63,7 @@ Dianzhao  dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ip
     <span><strong>Dianzhao Li</strong>, Ostap Okhrin</span><br>
     <span class="pub-venue">Transportation research part C: emerging technologies (TRC), 2023.</span>
   </div>
-  <img src="/images/cf.png" alt="Sim2Real Pipeline">
+  <img src="/assets/images/cf.png" alt="Sim2Real Pipeline">
 </div>
 
 - ***[Learning to Drive Ethically: Embedding Moral Reasoning into Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/11034663)*** <br>
