@@ -2,71 +2,163 @@
 title: "Dianzhao Li"
 ---
 
+<style>
+
+  
+/* Publication entry with image on left by default */
+.pub-entry {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 25px;
+  align-items: flex-start;
+  border-bottom: 1px dashed #e1e4e8;
+  padding-bottom: 20px;
+}
+
+.pub-entry:last-of-type {
+  border-bottom: none;
+}
+
+/* For right-aligned images (use class="pub-entry right") */
+.pub-entry.right {
+  flex-direction: row-reverse;
+}
+
+.pub-entry img {
+  max-width: 250px !important;
+  width: 250px !important;
+  height: auto !important;
+  border: 2px solid #d0d0d0 !important;
+  border-radius: 6px !important;
+  padding: 6px !important;
+  background: #fff !important; 
+  box-shadow: 0 2px 4px rgba(0,0,0,.08) !important;
+  flex-shrink: 0;
+}
+
+.pub-text {
+  flex-grow: 1;
+}
+
+.pub-links {
+  margin-top: 5px;
+}
+
+.pub-links a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #0366d6;
+  transition: color 0.2s;
+  font-size: 0.9em;
+  text-decoration: none;
+  font-weight: 500; /* Make bolder */
+}
+
+.pub-links a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.pub-links i {
+  font-size: 1.1em;
+}
+
+@media (max-width: 650px) {
+  .pub-entry, .pub-entry.right {
+    flex-direction: column;
+  }
+}
+</style>
+
 # About Me {#about-me}
 
-Dianzhao  dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a doctoral candidate at <a href="https://rl-dresden.de/"><strong>RL Dresden</strong></a> and Technische Universität Dresden, supervised by Prof. Ostap Okhrin, and a research scientist at <a href="https://scads.ai/"><strong>ScaDS.AI Dresden/Leipzig</strong></a>. I completed my M.Sc. at the Karlsruhe Institute of Technology and my B.Sc. at China University of Petroleum (East China). 
+
+My research focuses on reinforcement learning for autonomous driving: developing RL solutions for diverse driving tasks, closing the sim-to-real gap for small-scale vehicles, and advancing ethical decision-making so autonomous systems are more responsible and reliable in real-world deployments.
 
 
 
 # 📝 Publications {#publications}
 
-<div class="pub-entry right">
+<div class="pub-entry">
+  <img src="/images/ethic.png" alt="Sim2Real Pipeline">
   <div class="pub-text">
     <span class="pub-title">
-      <a href="https://www.nature.com/articles/s44172-024-00292-3"><strong>Learning to Drive Ethically: Embedding Moral Reasoning into Autonomous Driving</strong></a>
-    </span>
+      <strong><em>Learning to Drive Ethically: Embedding Moral Reasoning into Autonomous Driving</em></strong>
+    </span><br>
     <span><strong>Dianzhao Li</strong>, Ostap Okhrin</span><br>
     <span class="pub-venue">Under review, 2025.</span>
   </div>
-  <img src="/images/ethic.png" alt="Sim2Real Pipeline">
 </div>
 
-<div class="pub-entry right">
+<div class="pub-entry">
+  <img src="/images/survey.png" alt="Sim2Real Pipeline">
   <div class="pub-text">
     <span class="pub-title">
-      <a href="https://ieeexplore.ieee.org/abstract/document/11034663"><strong>Autonomous Driving Small-Scale Cars: A Survey of Recent Development</strong></a>
-    </span>
+      <strong><em>Autonomous Driving Small-Scale Cars: A Survey of Recent Development</em></strong>
+    </span><br>
     <span><strong>Dianzhao Li</strong>, Paul Auerbach, Ostap Okhrin</span><br>
     <span class="pub-venue">IEEE Transactions on Intelligent Transportation Systems (IEEE TITS), 2025.</span>
+    <div class="pub-links">
+    <a href="https://ieeexplore.ieee.org/abstract/document/11034663" target="_blank" title="Paper"><strong>Paper</strong></a>
+     </div>
   </div>
-  <img src="/images/survey.png" alt="Sim2Real Pipeline">
 </div>
 
 
-<div class="pub-entry right">
+<div class="pub-entry">
+  <img src="/images/ot.png" alt="Sim2Real Pipeline">
   <div class="pub-text">
     <span class="pub-title">
-      <a href="https://www.nature.com/articles/s44172-024-00292-3"><strong>A platform-agnostic deep reinforcement learning framework for effective sim2real transfer towards autonomous driving</strong></a>
-    </span>
+      <strong><em>A platform-agnostic deep reinforcement learning framework for effective sim2real transfer towards autonomous driving</em></strong>
+    </span><br>
     <span><strong>Dianzhao Li</strong>, Ostap Okhrin</span><br>
     <span class="pub-venue">Communications Engineering, 2024.</span>
+    <div class="pub-links">
+      <a href="https://www.nature.com/articles/s44172-024-00292-3" target="_blank" title="Paper"><strong>Paper</strong></a>
+      <a href="https://dailyl.github.io/sim2realVehicle.github.io/" target="_blank" title="Project Page"><strong>Project</strong></a>
+      <a href="https://github.com/DailyL/Sim2Real_autonomous_vehicle" target="_blank" title="Code"><i class="fab fa-github"></i></a>
+    </div>
   </div>
-  <img src="/images/ot.png" alt="Sim2Real Pipeline">
 </div>
 
-<div class="pub-entry right">
+
+<div class="pub-entry">
+  <img src="/images/cf_duckie.png" alt="Sim2Real Pipeline">
   <div class="pub-text">
     <span class="pub-title">
-      <a href="https://ieeexplore.ieee.org/abstract/document/10422677"><strong>Vision-based DRL Autonomous Driving Agent with Sim2Real Transfer</strong></a>
-    </span>
+      <strong><em>Vision-based DRL Autonomous Driving Agent with Sim2Real Transfer</em></strong>
+    </span><br>
     <span><strong>Dianzhao Li</strong>, Ostap Okhrin</span><br>
     <span class="pub-venue">IEEE 26th International Conference on Intelligent Transportation Systems (IEEE ITSC), 2023.</span>
+    <div class="pub-links">
+      <a href="https://ieeexplore.ieee.org/abstract/document/10422677" target="_blank" title="Paper"><strong>Paper</strong></a>
+      <a href="https://github.com/DailyL/Sim2Real_autonomous_vehicle" target="_blank" title="Code"><i class="fab fa-github"></i></a>
+    </div>
   </div>
-  <img src="/images/cf_duckie.png" alt="Sim2Real Pipeline">
 </div>
 
-<div class="pub-entry right">
+
+<div class="pub-entry">
+  <img src="/images/cf.png" alt="Sim2Real Pipeline">
   <div class="pub-text">
     <span class="pub-title">
-      <a href="https://www.sciencedirect.com/science/article/pii/S0968090X22004004"><strong>Modified DDPG car-following model with a real-world human driving experience with CARLA simulator</strong></a>
-    </span>
+      <strong><em>Modified DDPG car-following model with a real-world human driving experience with CARLA simulator</em></strong></a>
+    </span><br>
     <span><strong>Dianzhao Li</strong>, Ostap Okhrin</span><br>
     <span class="pub-venue">Transportation research part C: emerging technologies (TRC), 2023.</span>
+    <div class="pub-links">
+      <a href="https://www.sciencedirect.com/science/article/pii/S0968090X22004004" target="_blank" title="Paper"><strong>Paper</strong></a>
+      <a href="https://github.com/DailyL/Modified-DDPG-car-following-model" target="_blank" title="Code"><i class="fab fa-github"></i></a>
+    </div>
   </div>
-  <img src="/assets/images/cf.png" alt="Sim2Real Pipeline">
 </div>
 
-- ***[Learning to Drive Ethically: Embedding Moral Reasoning into Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/11034663)*** <br>
+
+
+
+<!-- - ***[Learning to Drive Ethically: Embedding Moral Reasoning into Autonomous Driving](https://ieeexplore.ieee.org/abstract/document/11034663)*** <br>
   **Dianzhao Li**, Ostap Okhrin, under review, 2025. <br>
 
 - ***[Autonomous Driving Small-Scale Cars: A Survey of Recent Development](https://ieeexplore.ieee.org/abstract/document/11034663)*** <br>
@@ -81,7 +173,7 @@ Dianzhao  dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ip
   **Dianzhao Li**, Ostap Okhrin in *IEEE 26th International Conference on Intelligent Transportation Systems* (**IEEE ITSC**), 2023. <br>
 
 - ***[Modified DDPG car-following model with a real-world human driving experience with CARLA simulator](https://www.sciencedirect.com/science/article/pii/S0968090X22004004)*** <br>
-  **Dianzhao Li**, Ostap Okhrin in *Transportation research part C: emerging technologies* (**TRC**), 2023. <br>
+  **Dianzhao Li**, Ostap Okhrin in *Transportation research part C: emerging technologies* (**TRC**), 2023. <br> -->
 
 <!-- # 🎖 Honors and Awards {#honors-and-awards}
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 

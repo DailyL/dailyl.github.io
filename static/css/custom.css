@@ -1,0 +1,11 @@
+/* Nuclear option - override everything */
+div.pub-entry.right img,
+.pub-entry.right img,
+.pub-entry img,
+#publications img,
+img[src*="/images/"] {
+  max-width: 120px !important;
+  width: 120px !important;
+  height: auto !important;
+  border: 3px solid red !important;
+}

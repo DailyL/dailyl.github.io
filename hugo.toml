@@ -50,50 +50,17 @@ disableKinds = ["taxonomy", "term", "RSS"]
       url = '#teaching'
       weight = 8
       
-  [languages.zh]
-    languageName = '中文'
-    weight = 2
-    title = '学术主页'
-    
-    [languages.zh.params]
-      author = "王小明"
-      description = "某某大学博士生，专注于计算机视觉与深度学习"
-      motto = "世界上大部分事，都没有太大意义。真理与爱除外。"
-    
-    [[languages.zh.menu.main]]
-      name = '关于我'
-      url = '#about-me'
-      weight = 1
-    [[languages.zh.menu.main]]
-      name = '新闻'
-      url = '#news'
-      weight = 2
-    [[languages.zh.menu.main]]
-      name = '发表论文'
-      url = '#publications'
-      weight = 3
-    [[languages.zh.menu.main]]
-      name = '荣誉与奖项'
-      url = '#honors-and-awards'
-      weight = 4
-    [[languages.zh.menu.main]]
-      name = '教育背景'
-      url = '#educations'
-      weight = 5
-    [[languages.zh.menu.main]]
-      name = '受邀报告'
-      url = '#invited-talks'
-      weight = 6
-    [[languages.zh.menu.main]]
-      name = '实习经历'
-      url = '#internships'
-      weight = 7
+
 
 [params]
   profilePicture = "images/profile.png"
   enableDarkMode = true
-  customCSS = ["css/custom.css"]
+  customCSS = ["/css/custom.css"]
   
+  [[params.social]]
+    name = "email"
+    url = "mailto:dianzhao.li@tu-dresden.de"
+    icon = "fas fa-envelope"
   [[params.social]]
     name = "github"
     url = "https://github.com/DailyL"
@@ -103,9 +70,9 @@ disableKinds = ["taxonomy", "term", "RSS"]
     url = "https://scholar.google.com/citations?user=i65JnxwAAAAJ&hl"
     icon = "fab fa-google-scholar"
   [[params.social]]
-    name = "email"
-    url = "mailto:dianzhao.li@tu-dresden.de"
-    icon = "fas fa-envelope"
+    name = "researchgate"
+    url = "https://www.researchgate.net/profile/Dianzhao-Li?ev=hdr_xprf"
+    icon = "fab fa-researchgate"
   [[params.social]]
     name = "linkedin"
     url = "https://linkedin.com/"
