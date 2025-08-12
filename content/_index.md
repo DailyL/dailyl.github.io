@@ -6,30 +6,40 @@ title: "Dianzhao Li"
 
 Dianzhao  dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a>.
 
-# 🔥 News {#news}
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📝 Publications {#publications}
 
-- ***[Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)*** <br>
-  Haotian Liu, Chunyuan Li, Qingyang Wu, Yong Jae Lee
-  in Conference on Neural Information Processing Systems (**Neurips**), 2023. <br>
-  <a href="https://arxiv.org/abs/2304.08485" class="no-trailing-icon"><img src="https://img.shields.io/badge/arXiv-2304.08485-b31b1b.svg?style=flat-square" alt="Arxiv-2304.08485"/></a><a href="https://github.com/haotian-liu/LLaVA" class="no-trailing-icon"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/haotian-liu/LLaVA?style=flat-square&logo=github&label=GitHub%20Stars&labelColor=black"></a>
+- ***[Autonomous Driving Small-Scale Cars: A Survey of Recent Development](https://ieeexplore.ieee.org/abstract/document/11034663)*** <br>
+  **Dianzhao Li**, Paul Auerbach, Ostap Okhrin in *IEEE Transactions on Intelligent Transportation Systems* (**IEEE TITS**), 2025. <br>
 
-# 🎖 Honors and Awards {#honors-and-awards}
+- ***[A platform-agnostic deep reinforcement learning framework for effective sim2real transfer towards autonomous driving](https://www.nature.com/articles/s44172-024-00292-3)*** <br>
+  **Dianzhao Li**, Ostap Okhrin in *Communications Engineering*, 2024. <br>
+
+- ***[Vision-based DRL Autonomous Driving Agent with Sim2Real Transfer](https://ieeexplore.ieee.org/abstract/document/10422677)*** <br>
+  **Dianzhao Li**, Ostap Okhrin in *IEEE 26th International Conference on Intelligent Transportation Systems* (**IEEE ITSC**), 2023. <br>
+
+- ***[Modified DDPG car-following model with a real-world human driving experience with CARLA simulator](https://www.sciencedirect.com/science/article/pii/S0968090X22004004)*** <br>
+  **Dianzhao Li**, Ostap Okhrin in *Transportation research part C: emerging technologies* (**TRC**), 2023. <br>
+
+<!-- # 🎖 Honors and Awards {#honors-and-awards}
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
+ -->
 # 📖 Educations {#educations}
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2017.03 - 2021.02*, **Karlsruhe Institute of Technology**, M.Sc. of Mechanical Engineering, Specialization in *Mechatronics* & *Information Technology* \
+Mester Thesis: [Where Am I? SLAM for Mobile Machines on a Smart Working Site](https://www.mdpi.com/2624-8921/4/2/31)  
+- *2012.09 - 2016.06*, **China University of Petroleum (East China)**, B.Sc. of Mechanical Engineering and Automation, Specialization in *Control Technology* & *Micro Control Technology*
 
-# 💬 Invited Talks {#invited-talks}
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 📚 Referee for Journals and Conferences {#invited-talks}
+- *Since 2024*, IEEE Transactions on Intelligent Transportation Systems
+- *Since 2024*, SoftwareX
+- *Since 2024*, Scientific Reports
+- *Since 2023*, Engineering Applications of Artificial Intelligence
+- *Since 2022*, Mathematical Biosciences and Engineering
+-  2025 23rd European Control Conference (ECC) 
+- Transportation Research Board (TRB) Annual Meeting, Paper Reviewer for: AED30 Standing Committee on Information Systems and Technology and AED50 Standing Committee on Artificial Intelligence and Advanced Computing Application 
 
 # 💻 Internships {#internships}
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2019.06 - 2019.12*, *Precitec GmbH & Co. KG, Germany*.\
+Developed an end-to-end machine learning toolchain with visualization tools, applied to quality monitoring in laser material processing using self-learning vision and multi-sensor systems, including feature engineering and data augmentation.

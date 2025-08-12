@@ -20,8 +20,8 @@ theme = 'zero-academic-page'
 
     [languages.en.params]
       author = "Dianzhao Li"
-      description = "Ph.D Student in [Lorem ipsum College](https://example.com). Focusing on Computer Vision and Deep Learning."
-      motto = "Most things in the world are not that important. But truth and love matter."
+      description = "Doctoral Candidate in [Technische Universität Dresden](https://tu-dresden.de/bu/verkehr/ivw/osv), Research Scientist in [ScaDS.AI Dresden/Leipzig](https://scads.ai/)"
+      motto = "Focusing on Reinforcement Learning and Autonomous Driving."
     
     [[languages.en.menu.main]]
       name = 'About Me'
