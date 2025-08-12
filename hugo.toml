@@ -92,6 +92,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
 [params]
   profilePicture = "images/profile.png"
   enableDarkMode = true
+  customCSS = ["css/custom.css"]
   
   [[params.social]]
     name = "github"
