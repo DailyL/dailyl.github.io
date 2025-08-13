@@ -200,3 +200,5 @@ Developed an end-to-end machine learning toolchain with visualization tools, app
 # 💻 Teaching {#teaching}
 - Applied Multivariate Statistics
 - Data-Driven Statistics
+
+<img src="https://counter5.optistats.ovh/private/freecounterstat.php?c=jz6qgzpza7cjpkfhd9uwumf9k5eu42tu" border="0" title="hit counter" alt="hit counter">
