@@ -194,11 +194,12 @@ Mester Thesis: [Where Am I? SLAM for Mobile Machines on a Smart Working Site](ht
 - Transportation Research Board (TRB) Annual Meeting, Paper Reviewer for: AED30 Standing Committee on Information Systems and Technology and AED50 Standing Committee on Artificial Intelligence and Advanced Computing Application 
 
 # 💼 Internships {#internships}
-- *2019.06 - 2019.12*, *Precitec GmbH & Co. KG, Germany*.\
+- *2019.06 - 2019.12*, Precitec GmbH & Co. KG, Germany\
 Developed an end-to-end machine learning toolchain with visualization tools, applied to quality monitoring in laser material processing using self-learning vision and multi-sensor systems, including feature engineering and data augmentation.
 
 # 💻 Teaching {#teaching}
-- Applied Multivariate Statistics
-- Data-Driven Statistics
+- Theoretical Multivariate Statistics (Master)
+- Applied Multivariate Statistics (Master)
+- Data-Driven Multivariate Statistics (Master)
 
 <img src="https://counter5.optistats.ovh/private/freecounterstat.php?c=jz6qgzpza7cjpkfhd9uwumf9k5eu42tu" border="0" title="hit counter" alt="hit counter">
