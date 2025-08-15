@@ -75,7 +75,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
     icon = "fab fa-researchgate"
   [[params.social]]
     name = "linkedin"
-    url = "https://linkedin.com/"
+    url = "https://linkedin.com/in/dianzhao-li"
     icon = "fab fa-linkedin"
 
 [build]
