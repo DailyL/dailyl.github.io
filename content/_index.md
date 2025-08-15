@@ -78,6 +78,16 @@ I am a doctoral candidate at <a href="https://rl-dresden.de/"><strong>RL Dresden
 My research focuses on reinforcement learning for autonomous driving: developing RL solutions for diverse driving tasks, closing the sim-to-real gap for small-scale vehicles, and advancing ethical decision-making so autonomous systems are more responsible and reliable in real-world deployments.
 
 
+# 📰 News {#news}
+- *2025.08* : Our paper on ethical and responsible autonomous driving agents is now online.
+- *2025.06* : Our survey paper focus on autonomous driving research for small-scale cars have been accepted for publication by **IEEE TITS**.
+- *2024.10* : Our research was featured by [Duckietown news ](https://contact.duckietown.com/duckietown-newsletter-update-october-2024?ecid=ACsprvtA3PlMo41ijBjESipUOlcj4-qu1bx0yEvcIOXGfqr5P8lQCALi5sh2ymNLrcsRbO3QA75s&utm_campaign=Mailing%20List&utm_medium=email&_hsenc=p2ANqtz-_6xVoHlLWkJ6aQZZvPXRu6d2v6IQfJHqDBHVq7NFg7Sfa73ClCYNeH44aSvyD2pwpb-b_DIRUZen7JB3hCqw0hGhzEapX_4p8dAmLBsKJANr7xj5M&_hsmi=328126945&utm_content=328126945&utm_source=hs_email).
+- *2024.10* : Our paper with platform-agnostic DRL framework for Sim2Real transfer  have been accepted for publication by **Communications Engineering**.
+- *2023.09* : Our paper focus on vision-based DRL car following with Sim2Real transfer have been accepted for **IEEE ITSC**.
+- *2023.04* : I am offcialy a doctoral candidate in TU Dresden. 
+- *2023.02* : Our paper *Modified DDPG car-following model with a real-world human driving experience with CARLA simulator* have been accepted for publication by **TRC**.
+- *2022.10* : I attend the [27th Young Scientists Workshop](https://statistische-woche.de/en/startseite-en) in Statistical Week 2022.
+- *2022.09* : We successfully hosted the [Conference on Reinforcement Learning 2022 Dresden](https://sites.google.com/view/rlconferencedresden/home). A big thank you to all who attended and contributed to making it a success!
 
 # 📝 Publications {#publications}
 
