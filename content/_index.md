@@ -112,6 +112,7 @@ My research focuses on reinforcement learning for autonomous driving: developing
     <span class="pub-venue">IEEE Transactions on Intelligent Transportation Systems (IEEE TITS), 2025.</span>
     <div class="pub-links">
     <a href="https://ieeexplore.ieee.org/abstract/document/11034663" target="_blank" title="Paper"><strong>Paper</strong></a>
+    <a href="https://github.com/DailyL/small-scale-autonomous-cars" target="_blank" title="Project Page"><strong>Project</strong></a>
      </div>
   </div>
 </div>
