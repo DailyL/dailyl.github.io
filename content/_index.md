@@ -99,8 +99,14 @@ My research focuses on reinforcement learning for autonomous driving: developing
     </span><br>
     <span><strong>Dianzhao Li</strong>, Ostap Okhrin</span><br>
     <span class="pub-venue">Under review, 2025.</span>
+    <div class="pub-links">
+    <a href="https://arxiv.org/abs/2508.14926" target="_blank" title="Paper"><strong>Paper</strong></a>
+    <a href="https://github.com/DailyL/EDRL" target="_blank" title="Code"><i class="fab fa-github"></i></a>
+     </div>
   </div>
 </div>
+
+
 
 <div class="pub-entry">
   <img src="/images/survey.png" alt="Sim2Real Pipeline">
