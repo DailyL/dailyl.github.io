@@ -73,7 +73,7 @@ title: "Dianzhao Li"
 
 # About Me {#about-me}
 
-I am a doctoral candidate at <a href="https://rl-dresden.de/"><strong>RL Dresden</strong></a> and Technische Universität Dresden, supervised by Prof. Ostap Okhrin, and a research scientist at <a href="https://scads.ai/"><strong>ScaDS.AI Dresden/Leipzig</strong></a>. I completed my M.Sc. at the Karlsruhe Institute of Technology and my B.Sc. at China University of Petroleum (East China). 
+I am a doctoral candidate at <a href="https://rl-dresden.de/"><strong>RL Dresden</strong></a> and Technische Universität Dresden, supervised by Prof. Ostap Okhrin, and a research scientist at <a href="https://scads.ai/"><strong>ScaDS.AI Dresden/Leipzig</strong></a>. I completed my M.Sc. at the Karlsruhe Institute of Technology. 
 
 My research focuses on reinforcement learning for autonomous driving: developing RL solutions for diverse driving tasks, closing the sim-to-real gap for small-scale vehicles, and advancing ethical decision-making so autonomous systems are more responsible and reliable in real-world deployments.
 
