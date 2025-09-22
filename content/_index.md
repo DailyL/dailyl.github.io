@@ -98,7 +98,7 @@ My research focuses on reinforcement learning for autonomous driving: developing
       <strong><em>Learning to Drive Ethically: Embedding Moral Reasoning into Autonomous Driving</em></strong>
     </span><br>
     <span><strong>Dianzhao Li</strong>, Ostap Okhrin</span><br>
-    <span class="pub-venue">Under review, 2025.</span>
+    <span class="pub-venue">Under review (Nature Communications), 2025.</span>
     <div class="pub-links">
     <a href="https://arxiv.org/abs/2508.14926" target="_blank" title="Paper"><strong>Paper</strong></a>
     <a href="https://github.com/DailyL/EDRL" target="_blank" title="Code"><i class="fab fa-github"></i></a>
