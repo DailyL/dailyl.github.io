@@ -267,7 +267,7 @@ My research focuses on reinforcement learning for autonomous driving: developing
     <strong>B.Sc.</strong><br>
     Mechanical Engineering and Automation (<em>Control Technology</em> & <em>Micro Control Technology</em>)<br>
     <strong>China University of Petroleum (East China)</strong><br>
-    <em>Advisor:Prof. Leilei Gao </em><br>
+    <em>Advisor: Prof. Leilei Gao </em><br>
   </div>
 </div>
 
