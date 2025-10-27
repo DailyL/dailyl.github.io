@@ -73,7 +73,7 @@ title: "Dianzhao Li"
 
 # About Me {#about-me}
 
-I am a doctoral candidate at <a href="https://rl-dresden.de/"><strong>RL Dresden</strong></a> and Technische Universität Dresden, supervised by Prof. Ostap Okhrin, and a research scientist at <a href="https://scads.ai/"><strong>ScaDS.AI Dresden/Leipzig</strong></a>. I completed my M.Sc. at the Karlsruhe Institute of Technology. 
+I am a doctoral candidate at <a href="https://rl-dresden.de/"><strong>RL Dresden</strong></a> and Technische Universität Dresden, supervised by Prof. Ostap Okhrin, and a research scientist at <a href="https://scads.ai/"><strong>ScaDS.AI Dresden/Leipzig</strong></a>.
 
 My research focuses on reinforcement learning for autonomous driving: developing RL solutions for diverse driving tasks, closing the sim-to-real gap for small-scale vehicles, and advancing ethical decision-making so autonomous systems are more responsible and reliable in real-world deployments.
 
@@ -196,10 +196,80 @@ My research focuses on reinforcement learning for autonomous driving: developing
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
  -->
+
+# 💼 Research Experience {#internships}
+
+<div style="display:flex;align-items:center;gap:28px;margin-bottom:18px;">
+  <div style="text-align:center;display:flex;flex-direction:column;justify-content:center;align-items:center;min-width:170px;">
+    <img src="/images/logos/ScaDS.AI_Logo.png" alt="ScaDS.AI Logo" style="height:90px;width:160px;object-fit:contain;display:block;margin:auto;">
+    <div style="font-size:1em;margin-top:4px;"><em>2021.05 - Present</em></div>
+  </div>
+  <div style="display:flex;flex-direction:column;justify-content:center;">
+    <strong style="font-size:1.1em;">Research Scientist</strong>
+    <span style="font-weight:600;">ScaDS.AI Dresden/Leipzig, Germany</span>
+    Developed and evaluated reinforcement learning algorithms for autonomous driving, advancing robust policy transfer, cross-framework benchmarking, and simulation-to-real adaptability in high-fidelity environments.
+  </div>
+</div>
+
+<hr style="border:0;border-bottom:1px dashed #e1e4e8;margin:18px 0;">
+
+<div style="display:flex;align-items:center;gap:28px;margin-bottom:18px;">
+  <div style="text-align:center;">
+  <img src="/images/logos/precitec_kg_logo.jpeg" alt="Precitec Logo" style="height:90px;width:170px;object-fit:contain;display:block;margin:auto;">
+    <div style="font-size:1em;margin-top:4px;"><em>2019.06 - 2019.12</em></div>
+  </div>
+  <div>
+    <strong>Research Intern</strong><br>
+    <strong>Precitec GmbH &amp; Co. KG, Germany</strong><br>
+    Developed an end-to-end machine learning toolchain with visualization tools, applied to quality monitoring in laser material processing using self-learning vision and multi-sensor systems, including feature engineering and data augmentation.
+  </div>
+</div>
+
 # 📖 Educations {#educations}
-- *2017.03 - 2021.02*, **Karlsruhe Institute of Technology**, M.Sc. of Mechanical Engineering, Specialization in *Mechatronics* & *Information Technology* \
-Mester Thesis: [Where Am I? SLAM for Mobile Machines on a Smart Working Site](https://www.mdpi.com/2624-8921/4/2/31)  
-- *2012.09 - 2016.06*, **China University of Petroleum (East China)**, B.Sc. of Mechanical Engineering and Automation, Specialization in *Control Technology* & *Micro Control Technology*
+
+<div style="display:flex;align-items:center;gap:18px;margin-bottom:8px;">
+  <div style="text-align:center;">
+  <img src="/images/logos/TUD_Logo.svg" alt="TU Dresden Logo" style="height:100px;width:160px;object-fit:contain;display:block;margin:auto;">
+    <div style="font-size:1em;margin-top:4px;"><em>2023.05 - Present</em></div>
+  </div>
+  <div>
+    <strong>PhD</strong><br>
+    <strong>Technische Universität Dresden</strong><br>
+    <em>Advisor: <a href="https://tu-dresden.de/bu/verkehr/ivw/osv/die-professur/inhaber-in"> Prof. Ostap Okhrin </a></em>,  <em><a href="https://liampaull.ca/"> Prof. Liam Paull </a></em>, <em> <a href="https://www.mtreiber.de/"> Dr. Martin Treiber </a> </em><br>
+    Dissertation: <strong>Deep Reinforcement Learning for Autonomous Driving: Human-Informed, Ethical, and Transferable Agents</strong>
+  </div>
+</div>
+
+<hr style="border:0;border-bottom:1px dashed #e1e4e8;margin:18px 0;">
+
+<div style="display:flex;align-items:center;gap:18px;margin-bottom:8px;">
+  <div style="text-align:center;">
+  <img src="/images/logos/Logo_KIT.svg" alt="KIT Logo" style="height:100px;width:160px;object-fit:contain;display:block;margin:auto;">
+    <div style="font-size:1em;margin-top:4px;"><em>2017.03 - 2021.02</em></div>
+  </div>
+  <div>
+    <strong>M.Sc.</strong><br>
+    Mechanical Engineering (<em>Mechatronics</em> & <em>Information Technology</em>)<br>
+    <strong>Karlsruher Institut für Technologie</strong><br>
+    <em>Advisor: <a href="https://www.fast.kit.edu/mobima/mitarbeiter_Geimer.php"> Prof. Marcus Geimer </a></em><br>
+    Master Thesis: <a href="https://www.mdpi.com/2624-8921/4/2/31">Where Am I? SLAM for Mobile Machines on a Smart Working Site</a>
+  </div>
+</div>
+
+<hr style="border:0;border-bottom:1px dashed #e1e4e8;margin:18px 0;">
+
+<div style="display:flex;align-items:center;gap:18px;margin-bottom:8px;">
+  <div style="text-align:center;">
+  <img src="/images/logos/UPC_logo.png" alt="China University of Petroleum Logo" style="height:100px;width:160px;object-fit:contain;display:block;margin:auto;">
+    <div style="font-size:1em;margin-top:4px;"><em>2012.09 - 2016.06</em></div>
+  </div>
+  <div>
+    <strong>B.Sc.</strong><br>
+    Mechanical Engineering and Automation (<em>Control Technology</em> & <em>Micro Control Technology</em>)<br>
+    <strong>China University of Petroleum (East China)</strong><br>
+    <em>Advisor:Prof. Leilei Gao </em><br>
+  </div>
+</div>
 
 # 📚 Referee for Journals and Conferences {#referee}
 - *Since 2024*, IEEE Transactions on Intelligent Transportation Systems
@@ -210,9 +280,9 @@ Mester Thesis: [Where Am I? SLAM for Mobile Machines on a Smart Working Site](ht
 -  2025 23rd European Control Conference (ECC) 
 - Transportation Research Board (TRB) Annual Meeting, Paper Reviewer for: AED30 Standing Committee on Information Systems and Technology and AED50 Standing Committee on Artificial Intelligence and Advanced Computing Application 
 
-# 💼 Internships {#internships}
-- *2019.06 - 2019.12*, Precitec GmbH & Co. KG, Germany\
-Developed an end-to-end machine learning toolchain with visualization tools, applied to quality monitoring in laser material processing using self-learning vision and multi-sensor systems, including feature engineering and data augmentation.
+
+
+
 
 # 💻 Teaching {#teaching}
 - Theoretical Multivariate Statistics (Master)
