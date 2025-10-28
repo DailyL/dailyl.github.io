@@ -46,7 +46,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
       url = '#referee'
       weight = 6
     [[languages.en.menu.main]]
-      name = 'Internships'
+      name = 'Research'
       url = '#internships'
       weight = 7
     [[languages.en.menu.main]]
