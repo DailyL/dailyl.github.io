@@ -79,6 +79,7 @@ My research focuses on reinforcement learning for autonomous driving: developing
 
 
 # 📰 News {#news}
+- *2025.11* : I gave a talk at Safe Autonomy Seminar hosted by [xLAB](https://xlab.upenn.edu/) at the University of Pennsylvania, lead by Prof. [Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/). The recording of the talk is available here: [video link](https://www.youtube.com/watch?v=h4BPvnphF8E).   
 - *2025.08* : Our paper on ethical and responsible autonomous driving agents is now online.
 - *2025.06* : Our survey paper focus on autonomous driving research for small-scale cars have been accepted for publication by **IEEE TITS**.
 - *2024.10* : Our research was featured by [Duckietown news ](https://contact.duckietown.com/duckietown-newsletter-update-october-2024?ecid=ACsprvtA3PlMo41ijBjESipUOlcj4-qu1bx0yEvcIOXGfqr5P8lQCALi5sh2ymNLrcsRbO3QA75s&utm_campaign=Mailing%20List&utm_medium=email&_hsenc=p2ANqtz-_6xVoHlLWkJ6aQZZvPXRu6d2v6IQfJHqDBHVq7NFg7Sfa73ClCYNeH44aSvyD2pwpb-b_DIRUZen7JB3hCqw0hGhzEapX_4p8dAmLBsKJANr7xj5M&_hsmi=328126945&utm_content=328126945&utm_source=hs_email).
