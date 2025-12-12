@@ -79,6 +79,7 @@ My research focuses on reinforcement learning for autonomous driving: developing
 
 
 # 📰 News {#news}
+- *2025.12* : An interview with me was published in NASW (National Association of Science Writers), where I discussed about how small robot vehicles can drive research and education innovation. The article is available here: [NASW Interview](https://www.nasw.org/article/small-robot-vehicles-drive-research-and-education-innovation).  
 - *2025.11* : I gave a talk at Safe Autonomy Seminar hosted by [xLAB](https://xlab.upenn.edu/) at the University of Pennsylvania, lead by Prof. [Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/). The recording of the talk is available here: [video link](https://www.youtube.com/watch?v=h4BPvnphF8E).   
 - *2025.08* : Our paper on ethical and responsible autonomous driving agents is now online.
 - *2025.06* : Our survey paper focus on autonomous driving research for small-scale cars have been accepted for publication by **IEEE TITS**.
