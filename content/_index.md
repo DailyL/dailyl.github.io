@@ -94,6 +94,18 @@ My research focuses on reinforcement learning for autonomous driving: developing
 # 📝 Publications {#publications}
 
 <div class="pub-entry">
+  <img src="/images/mta-rl.png" alt="Sim2Real Pipeline">
+  <div class="pub-text">
+    <span class="pub-title">
+      <strong><em>MTA-RL: Robust Urban Driving via Multi-modal Transformer-based 3D Affordances and Reinforcement Learning</em></strong>
+    </span><br>
+    <span>Guangli Chen*, <strong>Dianzhao Li</strong>*, Wenjian Zhong, Bangquan Xie and Ostap Okhrin</span><br>
+    <span class="pub-venue">Under review (IROS), 2026.</span>
+  </div>
+</div>
+
+
+<div class="pub-entry">
   <img src="/images/ethic.png" alt="Sim2Real Pipeline">
   <div class="pub-text">
     <span class="pub-title">
@@ -274,6 +286,7 @@ My research focuses on reinforcement learning for autonomous driving: developing
 </div>
 
 # 📚 Referee for Journals and Conferences {#referee}
+- *Since 2026*, IEEE Transactions on Pattern Analysis and Machine Intelligence
 - *Since 2024*, IEEE Transactions on Intelligent Transportation Systems
 - *Since 2024*, SoftwareX
 - *Since 2024*, Scientific Reports
