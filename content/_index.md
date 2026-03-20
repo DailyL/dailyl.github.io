@@ -99,8 +99,9 @@ My research focuses on reinforcement learning for autonomous driving: developing
     <span class="pub-title">
       <strong><em>MTA-RL: Robust Urban Driving via Multi-modal Transformer-based 3D Affordances and Reinforcement Learning</em></strong>
     </span><br>
-    <span>Guangli Chen*, <strong>Dianzhao Li</strong>*, Wenjian Zhong, Bangquan Xie and Ostap Okhrin</span><br>
-    <span class="pub-venue">Under review (IROS), 2026.</span>
+    <span>Guangli Chen <sup>†</sup>, <strong>Dianzhao Li</strong><sup>†</sup>, Wenjian Zhong, Bangquan Xie and Ostap Okhrin</span><br>
+    <span class="pub-venue">Under review (IROS), 2026.</span><br>
+    <span style="font-size:0.85em;color:#888;">† Equal contribution</span>
   </div>
 </div>
 
@@ -111,7 +112,7 @@ My research focuses on reinforcement learning for autonomous driving: developing
     <span class="pub-title">
       <strong><em>Learning to Drive Ethically: Embedding Moral Reasoning into Autonomous Driving</em></strong>
     </span><br>
-    <span><strong>Dianzhao Li</strong>, Ostap Okhrin</span><br>
+    <span><strong>Dianzhao Li</strong>*, Ostap Okhrin</span><br>
     <span class="pub-venue">Under review (IEEE TPAMI), 2025.</span>
     <div class="pub-links">
     <a href="https://arxiv.org/abs/2508.14926" target="_blank" title="Paper"><strong>Paper</strong></a>
@@ -128,7 +129,7 @@ My research focuses on reinforcement learning for autonomous driving: developing
     <span class="pub-title">
       <strong><em>Autonomous Driving Small-Scale Cars: A Survey of Recent Development</em></strong>
     </span><br>
-    <span><strong>Dianzhao Li</strong>, Paul Auerbach, Ostap Okhrin</span><br>
+    <span><strong>Dianzhao Li</strong>*, Paul Auerbach, Ostap Okhrin</span><br>
     <span class="pub-venue">IEEE Transactions on Intelligent Transportation Systems (IEEE TITS), 2025.</span>
     <div class="pub-links">
     <a href="https://ieeexplore.ieee.org/abstract/document/11034663" target="_blank" title="Paper"><strong>Paper</strong></a>
@@ -144,7 +145,7 @@ My research focuses on reinforcement learning for autonomous driving: developing
     <span class="pub-title">
       <strong><em>A platform-agnostic deep reinforcement learning framework for effective sim2real transfer towards autonomous driving</em></strong>
     </span><br>
-    <span><strong>Dianzhao Li</strong>, Ostap Okhrin</span><br>
+    <span><strong>Dianzhao Li</strong>*, Ostap Okhrin</span><br>
     <span class="pub-venue">Communications Engineering, 2024.</span>
     <div class="pub-links">
       <a href="https://www.nature.com/articles/s44172-024-00292-3" target="_blank" title="Paper"><strong>Paper</strong></a>
@@ -161,7 +162,7 @@ My research focuses on reinforcement learning for autonomous driving: developing
     <span class="pub-title">
       <strong><em>Vision-based DRL Autonomous Driving Agent with Sim2Real Transfer</em></strong>
     </span><br>
-    <span><strong>Dianzhao Li</strong>, Ostap Okhrin</span><br>
+    <span><strong>Dianzhao Li</strong>*, Ostap Okhrin</span><br>
     <span class="pub-venue">IEEE 26th International Conference on Intelligent Transportation Systems (IEEE ITSC), 2023.</span>
     <div class="pub-links">
       <a href="https://ieeexplore.ieee.org/abstract/document/10422677" target="_blank" title="Paper"><strong>Paper</strong></a>
@@ -177,7 +178,7 @@ My research focuses on reinforcement learning for autonomous driving: developing
     <span class="pub-title">
       <strong><em>Modified DDPG car-following model with a real-world human driving experience with CARLA simulator</em></strong></a>
     </span><br>
-    <span><strong>Dianzhao Li</strong>, Ostap Okhrin</span><br>
+    <span><strong>Dianzhao Li</strong>*, Ostap Okhrin</span><br>
     <span class="pub-venue">Transportation research part C: emerging technologies (TRC), 2023.</span>
     <div class="pub-links">
       <a href="https://www.sciencedirect.com/science/article/pii/S0968090X22004004" target="_blank" title="Paper"><strong>Paper</strong></a>
