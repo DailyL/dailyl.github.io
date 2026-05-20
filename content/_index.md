@@ -246,12 +246,12 @@ My research focuses on reinforcement learning for autonomous driving: developing
 <div style="display:flex;align-items:center;gap:18px;margin-bottom:8px;">
   <div style="text-align:center;">
   <img src="/images/logos/TUD_Logo.svg" alt="TU Dresden Logo" style="height:100px;width:160px;object-fit:contain;display:block;margin:auto;">
-    <div style="font-size:1em;margin-top:4px;"><em>2023.05 - Present</em></div>
+    <div style="font-size:1em;margin-top:4px;"><em>2023.05 - 2026.05</em></div>
   </div>
   <div>
     <strong>PhD</strong><br>
     <strong>Technische Universität Dresden</strong><br>
-    <em>Advisor: <a href="https://tu-dresden.de/bu/verkehr/ivw/osv/die-professur/inhaber-in"> Prof. Ostap Okhrin </a></em>,  <em><a href="https://liampaull.ca/"> Prof. Liam Paull </a></em>, <em> <a href="https://www.mtreiber.de/"> Dr. Martin Treiber </a> </em><br>
+    <em>Advisor: <a href="https://tu-dresden.de/bu/verkehr/ivw/osv/die-professur/inhaber-in"> Prof. Ostap Okhrin </a></em>, <em> <a href="https://www.mtreiber.de/"> Dr. Martin Treiber </a> </em><br>
     Dissertation: <strong>Deep Reinforcement Learning for Autonomous Driving: Human-Informed, Ethical, and Transferable Agents</strong>
   </div>
 </div>
