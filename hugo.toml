@@ -22,7 +22,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
 
     [languages.en.params]
       author = "Dianzhao Li"
-      description = "Doctoral Candidate in [Technische Universität Dresden](https://tu-dresden.de/bu/verkehr/ivw/osv), Research Scientist in [ScaDS.AI Dresden/Leipzig](https://scads.ai/)"
+      description = "Research Scientist in [ScaDS.AI Dresden/Leipzig](https://scads.ai/)"
       motto = "Focusing on Reinforcement Learning and Autonomous Driving."
     
     [[languages.en.menu.main]]
