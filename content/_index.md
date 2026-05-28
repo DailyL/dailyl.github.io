@@ -233,7 +233,7 @@ My goal is to bridge research and production autonomy systems, enabling learning
 <div style="display:flex;align-items:center;gap:28px;margin-bottom:18px;">
   <div style="text-align:center;">
   <img src="/images/logos/ua_logo_green_rgb.png" alt="Precitec Logo" style="height:90px;width:170px;object-fit:contain;display:block;margin:auto;">
-    <div style="font-size:1em;margin-top:4px;"><em>2026.06 - </em></div>
+    <div style="font-size:1em;margin-top:4px;"><em>2026.06 - Present</em></div>
   </div>
   <div>
     <strong>Visiting Researcher – Human-Guided Reinforcement Learning</strong><br>
