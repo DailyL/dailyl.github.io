@@ -3,73 +3,19 @@ title: "Dianzhao Li"
 ---
 
 <style>
-
-  
-/* Publication entry with image on left by default */
-.pub-entry {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  margin-bottom: 25px;
-  align-items: flex-start;
-  border-bottom: 1px dashed #e1e4e8;
-  padding-bottom: 20px;
-}
-
-.pub-entry:last-of-type {
-  border-bottom: none;
-}
-
-/* For right-aligned images (use class="pub-entry right") */
-.pub-entry.right {
-  flex-direction: row-reverse;
-}
-
-.pub-entry img {
-  max-width: 250px !important;
-  width: 250px !important;
-  height: auto !important;
-  border: 2px solid #d0d0d0 !important;
-  border-radius: 6px !important;
-  padding: 6px !important;
-  background: #fff !important; 
-  box-shadow: 0 2px 4px rgba(0,0,0,.08) !important;
-  flex-shrink: 0;
-}
-
-.pub-text {
-  flex-grow: 1;
-}
-
-.pub-links {
-  margin-top: 5px;
-}
-
-.pub-links a {
-  display: inline-block;
-  margin-right: 15px;
-  color: #0366d6;
-  transition: color 0.2s;
-  font-size: 0.9em;
-  text-decoration: none;
-  font-weight: 500; /* Make bolder */
-}
-
-.pub-links a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-
-.pub-links i {
-  font-size: 1.1em;
-}
-
-@media (max-width: 650px) {
-  .pub-entry, .pub-entry.right {
-    flex-direction: column;
-  }
-}
+/* Publication styles are in /css/custom.css */
 </style>
+
+<link rel="stylesheet" href="/css/custom.css">
+<script>
+(function(){
+  if (!localStorage.getItem('theme')) {
+    localStorage.setItem('theme', 'light');
+    var b = document.body;
+    if (b) { b.classList.remove('dark-mode'); b.classList.add('light-mode'); }
+  }
+})();
+</script>
 
 # About Me {#about-me}
 
@@ -78,6 +24,51 @@ My research focuses on autonomous driving systems, specifically learning-based p
 
 My goal is to bridge research and production autonomy systems, enabling learning-based agents that are reliable, interpretable, and deployable in real-world driving scenarios.
 
+# 🛠️ Technical Skills {#skills}
+
+<div class="skills-grid">
+  <div class="skill-category lang">
+    <div class="skill-category-label">Languages</div>
+    <div class="skill-tags">
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">C++</span>
+      <span class="skill-tag">MATLAB</span>
+      <span class="skill-tag">Bash</span>
+    </div>
+  </div>
+  <div class="skill-category ml">
+    <div class="skill-category-label">ML / AI</div>
+    <div class="skill-tags">
+      <span class="skill-tag">PyTorch</span>
+      <span class="skill-tag">JAX</span>
+      <span class="skill-tag">NumPy</span>
+      <span class="skill-tag">OpenCV</span>
+      <span class="skill-tag">HuggingFace</span>
+      <span class="skill-tag">Gymnasium</span>
+    </div>
+  </div>
+  <div class="skill-category sim">
+    <div class="skill-category-label">Simulation &amp; Robotics</div>
+    <div class="skill-tags">
+      <span class="skill-tag">CARLA</span>
+      <span class="skill-tag">ROS / ROS2</span>
+      <span class="skill-tag">Gazebo</span>
+      <span class="skill-tag">Isaac Lab</span>
+      <span class="skill-tag">MuJoCo</span>
+    </div>
+  </div>
+  <div class="skill-category tools">
+    <div class="skill-category-label">Tools</div>
+    <div class="skill-tags">
+      <span class="skill-tag">Git</span>
+      <span class="skill-tag">Docker</span>
+      <span class="skill-tag">Linux</span>
+      <span class="skill-tag">LaTeX</span>
+      <span class="skill-tag">SLURM</span>
+      <span class="skill-tag">CMake</span>
+    </div>
+  </div>
+</div>
 
 # 📰 News {#news}
 - *2025.12* : An interview with me was published in NASW (National Association of Science Writers), where I discussed about how small robot vehicles can drive research and education innovation. The article is available here: [NASW Interview](https://www.nasw.org/article/small-robot-vehicles-drive-research-and-education-innovation).  
@@ -101,9 +92,12 @@ My goal is to bridge research and production autonomy systems, enabling learning
       <strong><em>MTA-RL: Robust Urban Driving via Multi-modal Transformer-based 3D Affordances and Reinforcement Learning</em></strong>
     </span><br>
     <span>Guangli Chen <sup>†</sup>, <strong>Dianzhao Li</strong><sup>†</sup>, Wenjian Zhong, Bangquan Xie and Ostap Okhrin</span><br>
-    <span class="pub-venue">Under review (IROS), 2026.</span><br>
-    <a href="https://arxiv.org/abs/2605.10177" target="_blank" title="Paper"><strong>Paper</strong></a>
-    <span style="font-size:0.85em;color:#888;">† Equal contribution</span>
+    <div style="margin:5px 0;"><span class="venue-badge arxiv">arXiv</span><span class="status-badge review">Under Review</span></div>
+    <span class="pub-venue">Under review (IROS), 2026.</span>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2605.10177" target="_blank" title="Paper">Paper</a>
+    </div>
+    <span class="pub-note">† Equal contribution</span>
   </div>
 </div>
 
@@ -115,10 +109,11 @@ My goal is to bridge research and production autonomy systems, enabling learning
       <strong><em>Learning to Drive Ethically: Embedding Moral Reasoning into Autonomous Driving</em></strong>
     </span><br>
     <span><strong>Dianzhao Li</strong>*, Ostap Okhrin</span><br>
+    <div style="margin:5px 0;"><span class="venue-badge arxiv">arXiv</span><span class="status-badge review">Under Review</span></div>
     <span class="pub-venue">Under review (IEEE TPAMI), 2025.</span>
     <div class="pub-links">
-    <a href="https://arxiv.org/abs/2508.14926" target="_blank" title="Paper"><strong>Paper</strong></a>
-    <a href="https://github.com/DailyL/EDRL" target="_blank" title="Code"><i class="fab fa-github"></i></a>
+    <a href="https://arxiv.org/abs/2508.14926" target="_blank" title="Paper">Paper</a>
+    <a href="https://github.com/DailyL/EDRL" target="_blank" title="Code"><i class="fab fa-github"></i> Code</a>
      </div>
   </div>
 </div>
@@ -132,10 +127,11 @@ My goal is to bridge research and production autonomy systems, enabling learning
       <strong><em>Autonomous Driving Small-Scale Cars: A Survey of Recent Development</em></strong>
     </span><br>
     <span><strong>Dianzhao Li</strong>*, Paul Auerbach, Ostap Okhrin</span><br>
+    <div style="margin:5px 0;"><span class="venue-badge ieee">IEEE TITS</span><span class="status-badge published">Published</span></div>
     <span class="pub-venue">IEEE Transactions on Intelligent Transportation Systems (IEEE TITS), 2025.</span>
     <div class="pub-links">
-    <a href="https://ieeexplore.ieee.org/abstract/document/11034663" target="_blank" title="Paper"><strong>Paper</strong></a>
-    <a href="https://github.com/DailyL/small-scale-autonomous-cars" target="_blank" title="Project Page"><strong>Project</strong></a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/11034663" target="_blank" title="Paper">Paper</a>
+    <a href="https://github.com/DailyL/small-scale-autonomous-cars" target="_blank" title="Project Page">Project</a>
      </div>
   </div>
 </div>
@@ -148,11 +144,12 @@ My goal is to bridge research and production autonomy systems, enabling learning
       <strong><em>A platform-agnostic deep reinforcement learning framework for effective sim2real transfer towards autonomous driving</em></strong>
     </span><br>
     <span><strong>Dianzhao Li</strong>*, Ostap Okhrin</span><br>
+    <div style="margin:5px 0;"><span class="venue-badge nature">Nature Comms Eng</span><span class="status-badge published">Published</span></div>
     <span class="pub-venue">Communications Engineering, 2024.</span>
     <div class="pub-links">
-      <a href="https://www.nature.com/articles/s44172-024-00292-3" target="_blank" title="Paper"><strong>Paper</strong></a>
-      <a href="https://dailyl.github.io/sim2realVehicle.github.io/" target="_blank" title="Project Page"><strong>Project</strong></a>
-      <a href="https://github.com/DailyL/Sim2Real_autonomous_vehicle" target="_blank" title="Code"><i class="fab fa-github"></i></a>
+      <a href="https://www.nature.com/articles/s44172-024-00292-3" target="_blank" title="Paper">Paper</a>
+      <a href="https://dailyl.github.io/sim2realVehicle.github.io/" target="_blank" title="Project Page">Project</a>
+      <a href="https://github.com/DailyL/Sim2Real_autonomous_vehicle" target="_blank" title="Code"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
@@ -165,10 +162,11 @@ My goal is to bridge research and production autonomy systems, enabling learning
       <strong><em>Vision-based DRL Autonomous Driving Agent with Sim2Real Transfer</em></strong>
     </span><br>
     <span><strong>Dianzhao Li</strong>*, Ostap Okhrin</span><br>
-    <span class="pub-venue">IEEE 26th International Conference on Intelligent Transportation Systems (IEEE ITSC), 2023.</span>
+    <div style="margin:5px 0;"><span class="venue-badge conference">IEEE ITSC</span><span class="status-badge published">Published</span></div>
+    <span class="pub-venue">IEEE ITSC, 2023.</span>
     <div class="pub-links">
-      <a href="https://ieeexplore.ieee.org/abstract/document/10422677" target="_blank" title="Paper"><strong>Paper</strong></a>
-      <a href="https://github.com/DailyL/Sim2Real_autonomous_vehicle" target="_blank" title="Code"><i class="fab fa-github"></i></a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10422677" target="_blank" title="Paper">Paper</a>
+      <a href="https://github.com/DailyL/Sim2Real_autonomous_vehicle" target="_blank" title="Code"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
@@ -181,10 +179,11 @@ My goal is to bridge research and production autonomy systems, enabling learning
       <strong><em>Modified DDPG car-following model with a real-world human driving experience with CARLA simulator</em></strong></a>
     </span><br>
     <span><strong>Dianzhao Li</strong>*, Ostap Okhrin</span><br>
-    <span class="pub-venue">Transportation research part C: emerging technologies (TRC), 2023.</span>
+    <div style="margin:5px 0;"><span class="venue-badge conference">Transp. Res. Part C</span><span class="status-badge published">Published</span></div>
+    <span class="pub-venue">Transportation Research Part C: Emerging Technologies, 2023.</span>
     <div class="pub-links">
-      <a href="https://www.sciencedirect.com/science/article/pii/S0968090X22004004" target="_blank" title="Paper"><strong>Paper</strong></a>
-      <a href="https://github.com/DailyL/Modified-DDPG-car-following-model" target="_blank" title="Code"><i class="fab fa-github"></i></a>
+      <a href="https://www.sciencedirect.com/science/article/pii/S0968090X22004004" target="_blank" title="Paper">Paper</a>
+      <a href="https://github.com/DailyL/Modified-DDPG-car-following-model" target="_blank" title="Code"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
@@ -216,103 +215,95 @@ My goal is to bridge research and production autonomy systems, enabling learning
 
 # 💼 Research Experience {#internships}
 
-<div style="display:flex;align-items:center;gap:28px;margin-bottom:18px;">
-  <div style="text-align:center;display:flex;flex-direction:column;justify-content:center;align-items:center;min-width:170px;">
-    <img src="/images/logos/ScaDS.AI_Logo.png" alt="ScaDS.AI Logo" style="height:90px;width:160px;object-fit:contain;display:block;margin:auto;">
-    <div style="font-size:1em;margin-top:4px;"><em>2021.05 - Present</em></div>
+<div class="exp-card">
+  <div class="exp-logo-wrap">
+    <img src="/images/logos/ScaDS.AI_Logo.png" alt="ScaDS.AI Logo">
+    <div class="exp-date">2021.05 – Present</div>
   </div>
-  <div style="display:flex;flex-direction:column;justify-content:center;">
-    <strong style="font-size:1.1em;">Research Scientist - Autonomous Driving & Reinforcement Learning</strong>
-    <span style="font-weight:600;">ScaDS.AI Dresden/Leipzig, Germany</span>
-    Developed and evaluated reinforcement learning algorithms for autonomous driving, advancing robust policy transfer, cross-framework benchmarking, and simulation-to-real adaptability in high-fidelity environments.
-  </div>
-</div>
-
-<hr style="border:0;border-bottom:1px dashed #e1e4e8;margin:18px 0;">
-
-<div style="display:flex;align-items:center;gap:28px;margin-bottom:18px;">
-  <div style="text-align:center;">
-  <img src="/images/logos/ua_logo_green_rgb.png" alt="Precitec Logo" style="height:90px;width:170px;object-fit:contain;display:block;margin:auto;">
-    <div style="font-size:1em;margin-top:4px;"><em>2026.06 - Present</em></div>
-  </div>
-  <div>
-    <strong>Visiting Researcher – Human-Guided Reinforcement Learning</strong><br>
-    <strong>University of Alberta, Canada</strong><br>
-    Research collaboration on preference-based reinforcement learning and human-guided decision-making for autonomous driving systems.
+  <div class="exp-body">
+    <div class="exp-role">Research Scientist · Autonomous Driving &amp; Reinforcement Learning</div>
+    <div class="exp-org">ScaDS.AI Dresden/Leipzig, Germany</div>
+    <div class="exp-desc">Developed and evaluated reinforcement learning algorithms for autonomous driving, advancing robust policy transfer, cross-framework benchmarking, and simulation-to-real adaptability in high-fidelity environments.</div>
   </div>
 </div>
 
-<hr style="border:0;border-bottom:1px dashed #e1e4e8;margin:18px 0;">
-
-<div style="display:flex;align-items:center;gap:28px;margin-bottom:18px;">
-  <div style="text-align:center;">
-  <img src="/images/logos/GWT - TUD GmbH.webp" alt="Precitec Logo" style="height:90px;width:170px;object-fit:contain;display:block;margin:auto;">
-    <div style="font-size:1em;margin-top:4px;"><em>2024.10 - 2025.12</em></div>
+<div class="exp-card">
+  <div class="exp-logo-wrap">
+    <img src="/images/logos/ua_logo_green_rgb.png" alt="University of Alberta Logo">
+    <div class="exp-date">2026.06 – Present</div>
   </div>
-  <div>
-    <strong>Research Associate – Intelligent Aircraft Cabin</strong><br>
-    <strong>GWT--TUD GmbH, Germany</strong><br>
-    Developed sensor-driven monitoring and inference pipelines using UWB radar and infrared sensing for intelligent cabin state analysis.
+  <div class="exp-body">
+    <div class="exp-role">Visiting Researcher · Human-Guided Reinforcement Learning</div>
+    <div class="exp-org">University of Alberta, Canada</div>
+    <div class="exp-desc">Research collaboration on preference-based reinforcement learning and human-guided decision-making for autonomous driving systems.</div>
   </div>
 </div>
 
-<hr style="border:0;border-bottom:1px dashed #e1e4e8;margin:18px 0;">
-
-<div style="display:flex;align-items:center;gap:28px;margin-bottom:18px;">
-  <div style="text-align:center;">
-  <img src="/images/logos/precitec_kg_logo.jpeg" alt="Precitec Logo" style="height:90px;width:170px;object-fit:contain;display:block;margin:auto;">
-    <div style="font-size:1em;margin-top:4px;"><em>2019.06 - 2019.12</em></div>
+<div class="exp-card">
+  <div class="exp-logo-wrap">
+    <img src="/images/logos/GWT - TUD GmbH.webp" alt="GWT-TUD GmbH Logo">
+    <div class="exp-date">2024.10 – 2025.12</div>
   </div>
-  <div>
-    <strong>Research Intern – Machine Learning for Industrial Systems</strong><br>
-    <strong>Precitec GmbH &amp; Co. KG, Germany</strong><br>
-    Developed an end-to-end machine learning toolchain with visualization tools, applied to quality monitoring in laser material processing using self-learning vision and multi-sensor systems, including feature engineering and data augmentation.
+  <div class="exp-body">
+    <div class="exp-role">Research Associate · Intelligent Aircraft Cabin</div>
+    <div class="exp-org">GWT-TUD GmbH, Germany</div>
+    <div class="exp-desc">Developed sensor-driven monitoring and inference pipelines using UWB radar and infrared sensing for intelligent cabin state analysis.</div>
+  </div>
+</div>
+
+<div class="exp-card">
+  <div class="exp-logo-wrap">
+    <img src="/images/logos/precitec_kg_logo.jpeg" alt="Precitec Logo">
+    <div class="exp-date">2019.06 – 2019.12</div>
+  </div>
+  <div class="exp-body">
+    <div class="exp-role">Research Intern · Machine Learning for Industrial Systems</div>
+    <div class="exp-org">Precitec GmbH &amp; Co. KG, Germany</div>
+    <div class="exp-desc">Developed an end-to-end machine learning toolchain with visualization tools, applied to quality monitoring in laser material processing using self-learning vision and multi-sensor systems, including feature engineering and data augmentation.</div>
   </div>
 </div>
 
 # 📖 Educations {#educations}
 
-<div style="display:flex;align-items:center;gap:18px;margin-bottom:8px;">
-  <div style="text-align:center;">
-  <img src="/images/logos/TUD_Logo.svg" alt="TU Dresden Logo" style="height:100px;width:160px;object-fit:contain;display:block;margin:auto;">
-    <div style="font-size:1em;margin-top:4px;"><em>2023.05 - 2026.05</em></div>
+<div class="edu-card">
+  <div class="edu-logo-wrap">
+    <img src="/images/logos/TUD_Logo.svg" alt="TU Dresden Logo">
+    <div class="edu-date">2023.05 – 2026.05</div>
   </div>
-  <div>
-    <strong>PhD</strong><br>
-    <strong>Technische Universität Dresden</strong><br>
-    <em>Advisor: <a href="https://tu-dresden.de/bu/verkehr/ivw/osv/die-professur/inhaber-in"> Prof. Ostap Okhrin </a></em>, <em> <a href="https://www.mtreiber.de/"> Dr. Martin Treiber </a> </em><br>
-    Dissertation: <strong>Deep Reinforcement Learning for Autonomous Driving: Human-Informed, Ethical, and Transferable Agents</strong>
-  </div>
-</div>
-
-<hr style="border:0;border-bottom:1px dashed #e1e4e8;margin:18px 0;">
-
-<div style="display:flex;align-items:center;gap:18px;margin-bottom:8px;">
-  <div style="text-align:center;">
-  <img src="/images/logos/Logo_KIT.svg" alt="KIT Logo" style="height:100px;width:160px;object-fit:contain;display:block;margin:auto;">
-    <div style="font-size:1em;margin-top:4px;"><em>2017.03 - 2021.02</em></div>
-  </div>
-  <div>
-    <strong>M.Sc.</strong><br>
-    Mechanical Engineering (<em>Mechatronics</em> & <em>Information Technology</em>)<br>
-    <strong>Karlsruher Institut für Technologie</strong><br>
-    <em>Advisor: <a href="https://www.fast.kit.edu/mobima/mitarbeiter_Geimer.php"> Prof. Marcus Geimer </a></em><br>
-    Master Thesis: <a href="https://www.mdpi.com/2624-8921/4/2/31">Where Am I? SLAM for Mobile Machines on a Smart Working Site</a>
+  <div class="edu-body">
+    <div class="edu-degree">PhD</div>
+    <div class="edu-school">Technische Universität Dresden</div>
+    <div class="edu-meta">
+      Advisor: <a href="https://tu-dresden.de/bu/verkehr/ivw/osv/die-professur/inhaber-in">Prof. Ostap Okhrin</a>, <a href="https://www.mtreiber.de/">Dr. Martin Treiber</a><br>
+      Dissertation: <strong>Deep Reinforcement Learning for Autonomous Driving: Human-Informed, Ethical, and Transferable Agents</strong>
+    </div>
   </div>
 </div>
 
-<hr style="border:0;border-bottom:1px dashed #e1e4e8;margin:18px 0;">
-
-<div style="display:flex;align-items:center;gap:18px;margin-bottom:8px;">
-  <div style="text-align:center;">
-  <img src="/images/logos/UPC_logo.png" alt="China University of Petroleum Logo" style="height:100px;width:160px;object-fit:contain;display:block;margin:auto;">
-    <div style="font-size:1em;margin-top:4px;"><em>2012.09 - 2016.06</em></div>
+<div class="edu-card">
+  <div class="edu-logo-wrap">
+    <img src="/images/logos/Logo_KIT.svg" alt="KIT Logo">
+    <div class="edu-date">2017.03 – 2021.02</div>
   </div>
-  <div>
-    <strong>B.Sc.</strong><br>
-    Mechanical Engineering and Automation (<em>Control Technology</em> & <em>Micro Control Technology</em>)<br>
-    <strong>China University of Petroleum (East China)</strong><br>
-    <em>Advisor: Prof. Leilei Gao </em><br>
+  <div class="edu-body">
+    <div class="edu-degree">M.Sc. Mechanical Engineering <em>(Mechatronics &amp; Information Technology)</em></div>
+    <div class="edu-school">Karlsruher Institut für Technologie</div>
+    <div class="edu-meta">
+      Advisor: <a href="https://www.fast.kit.edu/mobima/mitarbeiter_Geimer.php">Prof. Marcus Geimer</a><br>
+      Thesis: <a href="https://www.mdpi.com/2624-8921/4/2/31">Where Am I? SLAM for Mobile Machines on a Smart Working Site</a>
+    </div>
+  </div>
+</div>
+
+<div class="edu-card">
+  <div class="edu-logo-wrap">
+    <img src="/images/logos/UPC_logo.png" alt="China University of Petroleum Logo">
+    <div class="edu-date">2012.09 – 2016.06</div>
+  </div>
+  <div class="edu-body">
+    <div class="edu-degree">B.Sc. Mechanical Engineering and Automation <em>(Control &amp; Micro Control Technology)</em></div>
+    <div class="edu-school">China University of Petroleum (East China)</div>
+    <div class="edu-meta">Advisor: Prof. Leilei Gao</div>
   </div>
 </div>
 

@@ -22,8 +22,8 @@ disableKinds = ["taxonomy", "term", "RSS"]
 
     [languages.en.params]
       author = "Dianzhao Li"
-      description = "Research Scientist in [ScaDS.AI Dresden/Leipzig](https://scads.ai/)"
-      motto = "Focusing on Reinforcement Learning and Autonomous Driving."
+      description = "Research Scientist | Autonomous Driving & RL Engineer"
+      motto = "Sim2Real · Learning · Safety · Deployable."
     
     [[languages.en.menu.main]]
       name = 'About Me'
@@ -37,6 +37,10 @@ disableKinds = ["taxonomy", "term", "RSS"]
       name = 'Publications'
       url = '#publications'
       weight = 3
+    [[languages.en.menu.main]]
+      name = 'Skills'
+      url = '#skills'
+      weight = 4
     [[languages.en.menu.main]]
       name = 'Educations'
       url = '#educations'
