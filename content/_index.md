@@ -24,53 +24,7 @@ My research focuses on autonomous driving systems, specifically learning-based p
 
 My goal is to bridge research and production autonomy systems, enabling learning-based agents that are reliable, interpretable, and deployable in real-world driving scenarios.
 
-# 🛠️ Technical Skills {#skills}
-
-<div class="skills-grid">
-  <div class="skill-category lang">
-    <div class="skill-category-label">Languages</div>
-    <div class="skill-tags">
-      <span class="skill-tag">Python</span>
-      <span class="skill-tag">C++</span>
-      <span class="skill-tag">MATLAB</span>
-      <span class="skill-tag">Bash</span>
-    </div>
-  </div>
-  <div class="skill-category ml">
-    <div class="skill-category-label">ML / AI</div>
-    <div class="skill-tags">
-      <span class="skill-tag">PyTorch</span>
-      <span class="skill-tag">JAX</span>
-      <span class="skill-tag">NumPy</span>
-      <span class="skill-tag">OpenCV</span>
-      <span class="skill-tag">HuggingFace</span>
-      <span class="skill-tag">Gymnasium</span>
-    </div>
-  </div>
-  <div class="skill-category sim">
-    <div class="skill-category-label">Simulation &amp; Robotics</div>
-    <div class="skill-tags">
-      <span class="skill-tag">CARLA</span>
-      <span class="skill-tag">ROS / ROS2</span>
-      <span class="skill-tag">Gazebo</span>
-      <span class="skill-tag">Isaac Lab</span>
-      <span class="skill-tag">MuJoCo</span>
-    </div>
-  </div>
-  <div class="skill-category tools">
-    <div class="skill-category-label">Tools</div>
-    <div class="skill-tags">
-      <span class="skill-tag">Git</span>
-      <span class="skill-tag">Docker</span>
-      <span class="skill-tag">Linux</span>
-      <span class="skill-tag">LaTeX</span>
-      <span class="skill-tag">SLURM</span>
-      <span class="skill-tag">CMake</span>
-    </div>
-  </div>
-</div>
-
-# 📰 News {#news}
+#  News {#news}
 - *2025.12* : An interview with me was published in NASW (National Association of Science Writers), where I discussed about how small robot vehicles can drive research and education innovation. The article is available here: [NASW Interview](https://www.nasw.org/article/small-robot-vehicles-drive-research-and-education-innovation).  
 - *2025.11* : I gave a talk at Safe Autonomy Seminar hosted by [xLAB](https://xlab.upenn.edu/) at the University of Pennsylvania, lead by Prof. [Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/). The recording of the talk is available here: [video link](https://www.youtube.com/watch?v=h4BPvnphF8E).   
 - *2025.08* : Our paper on ethical and responsible autonomous driving agents is now online.
@@ -91,13 +45,12 @@ My goal is to bridge research and production autonomy systems, enabling learning
     <span class="pub-title">
       <strong><em>MTA-RL: Robust Urban Driving via Multi-modal Transformer-based 3D Affordances and Reinforcement Learning</em></strong>
     </span><br>
-    <span>Guangli Chen <sup>†</sup>, <strong>Dianzhao Li</strong><sup>†</sup>, Wenjian Zhong, Bangquan Xie and Ostap Okhrin</span><br>
+    <span>Guangli Chen <sup>†</sup>, <strong>Dianzhao Li</strong><sup>†</sup>, Wenjian Zhong, Bangquan Xie and Ostap Okhrin <span style="font-size:0.82em;color:#8b949e;">(† equal contribution)</span></span><br>
     <div style="margin:5px 0;"><span class="venue-badge arxiv">arXiv</span><span class="status-badge review">Under Review</span></div>
     <span class="pub-venue">Under review (IROS), 2026.</span>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2605.10177" target="_blank" title="Paper">Paper</a>
     </div>
-    <span class="pub-note">† Equal contribution</span>
   </div>
 </div>
 
@@ -326,4 +279,52 @@ My goal is to bridge research and production autonomy systems, enabling learning
 - Applied Multivariate Statistics (Master)
 - Data-Driven Multivariate Statistics (Master)
 
-<img src="https://counter5.optistats.ovh/private/freecounterstat.php?c=jz6qgzpza7cjpkfhd9uwumf9k5eu42tu" border="0" title="hit counter" alt="hit counter">
+# 🛠️ Technical Skills {#skills}
+
+<div class="skills-grid">
+  <div class="skill-category lang">
+    <div class="skill-category-label">Languages</div>
+    <div class="skill-tags">
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">C++</span>
+      <span class="skill-tag">MATLAB</span>
+      <span class="skill-tag">Bash</span>
+    </div>
+  </div>
+  <div class="skill-category ml">
+    <div class="skill-category-label">ML / AI</div>
+    <div class="skill-tags">
+      <span class="skill-tag">PyTorch</span>
+      <span class="skill-tag">JAX</span>
+      <span class="skill-tag">NumPy</span>
+      <span class="skill-tag">OpenCV</span>
+      <span class="skill-tag">HuggingFace</span>
+      <span class="skill-tag">Gymnasium</span>
+    </div>
+  </div>
+  <div class="skill-category sim">
+    <div class="skill-category-label">Simulation &amp; Robotics</div>
+    <div class="skill-tags">
+      <span class="skill-tag">CARLA</span>
+      <span class="skill-tag">ROS / ROS2</span>
+      <span class="skill-tag">Gazebo</span>
+      <span class="skill-tag">Isaac Lab</span>
+      <span class="skill-tag">MuJoCo</span>
+    </div>
+  </div>
+  <div class="skill-category tools">
+    <div class="skill-category-label">Tools</div>
+    <div class="skill-tags">
+      <span class="skill-tag">Git</span>
+      <span class="skill-tag">Docker</span>
+      <span class="skill-tag">Linux</span>
+      <span class="skill-tag">LaTeX</span>
+      <span class="skill-tag">SLURM</span>
+      <span class="skill-tag">CMake</span>
+    </div>
+  </div>
+</div>
+
+<div class="visitor-insights">
+  <img class="visitor-counter" src="https://counter5.optistats.ovh/private/freecounterstat.php?c=jz6qgzpza7cjpkfhd9uwumf9k5eu42tu" title="Visitor Counter" alt="Visitor Counter">
+</div>
