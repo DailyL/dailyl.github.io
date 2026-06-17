@@ -46,8 +46,8 @@ My goal is to bridge research and production autonomy systems, enabling learning
       <strong><em>MTA-RL: Robust Urban Driving via Multi-modal Transformer-based 3D Affordances and Reinforcement Learning</em></strong>
     </span><br>
     <span>Guangli Chen <sup>†</sup>, <strong>Dianzhao Li</strong><sup>†</sup>, Wenjian Zhong, Bangquan Xie and Ostap Okhrin <span style="font-size:0.82em;color:#8b949e;">(† equal contribution)</span></span><br>
-    <div style="margin:5px 0;"><span class="venue-badge arxiv">arXiv</span><span class="status-badge review">Under Review</span></div>
-    <span class="pub-venue">Under review (IROS), 2026.</span>
+    <div style="margin:5px 0;"><span class="venue-badge ieee">IEEE IROS</span><span class="status-badge published">Accepted</span></div>
+    <span class="pub-venue"> IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026.</span>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2605.10177" target="_blank" title="Paper">Paper</a>
     </div>
