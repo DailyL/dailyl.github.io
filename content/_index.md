@@ -59,11 +59,11 @@ My goal is to bridge research and production autonomy systems, enabling learning
   <img src="/images/ethic.png" alt="Sim2Real Pipeline">
   <div class="pub-text">
     <span class="pub-title">
-      <strong><em>Learning to Drive Ethically: Embedding Moral Reasoning into Autonomous Driving</em></strong>
+      <strong><em>Ethics-Aware Safe Reinforcement Learning for Rare-Event Risk Control in Interactive Urban Driving</em></strong>
     </span><br>
     <span><strong>Dianzhao Li</strong>*, Ostap Okhrin</span><br>
-    <div style="margin:5px 0;"><span class="venue-badge arxiv">arXiv</span><span class="status-badge review">Under Review</span></div>
-    <span class="pub-venue">Under review (IEEE TPAMI), 2025.</span>
+    <div style="margin:5px 0;"><span class="venue-badge ieee">IEEE TPAMI</span><span class="status-badge published">Accepted</span></div>
+    <span class="pub-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026.</span>
     <div class="pub-links">
     <a href="https://arxiv.org/abs/2508.14926" target="_blank" title="Paper">Paper</a>
     <a href="https://github.com/DailyL/EDRL" target="_blank" title="Code"><i class="fab fa-github"></i> Code</a>
