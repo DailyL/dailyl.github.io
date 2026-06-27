@@ -25,6 +25,9 @@ My research focuses on autonomous driving systems, specifically learning-based p
 My goal is to bridge research and production autonomy systems, enabling learning-based agents that are reliable, interpretable, and deployable in real-world driving scenarios.
 
 #  News {#news}
+- *2026.06* : Our paper on ethical decision-making for autonomous driving has been accepted for publication in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
+- *2026.06* : Our paper on affordance learning with reinforcement learning for urban driving scenarios has been accepted to IROS 2026.
+- *2026.06* : I joined the [Robot Learning Laboratory (IRL Lab)](https://irll.ca/) at the University of Alberta as a visiting researcher, working with Prof. Matthew E. Taylor on human-guided reinforcement learning and preference learning. 
 - *2025.12* : An interview with me was published in NASW (National Association of Science Writers), where I discussed about how small robot vehicles can drive research and education innovation. The article is available here: [NASW Interview](https://www.nasw.org/article/small-robot-vehicles-drive-research-and-education-innovation).  
 - *2025.11* : I gave a talk at Safe Autonomy Seminar hosted by [xLAB](https://xlab.upenn.edu/) at the University of Pennsylvania, lead by Prof. [Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/). The recording of the talk is available here: [video link](https://www.youtube.com/watch?v=h4BPvnphF8E).   
 - *2025.08* : Our paper on ethical and responsible autonomous driving agents is now online.
