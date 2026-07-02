@@ -66,7 +66,7 @@ My goal is to bridge research and production autonomy systems, enabling learning
     </span><br>
     <span><strong>Dianzhao Li</strong>*, Ostap Okhrin</span><br>
     <div style="margin:5px 0;"><span class="venue-badge ieee">IEEE TPAMI</span><span class="status-badge published">Accepted</span></div>
-    <span class="pub-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026.</span>
+    <span class="pub-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 2026.</span>
     <div class="pub-links">
     <a href="https://ieeexplore.ieee.org/document/11585994" target="_blank" title="Paper">Paper</a>
     <a href="https://github.com/DailyL/EDRL" target="_blank" title="Code"><i class="fab fa-github"></i> Code</a>
